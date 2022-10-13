@@ -1,0 +1,15 @@
+{
+    "config" : {
+        "vendor-dir": "./LFA",
+        "optimize-autoloader": true,
+        "classmap-authoritative": true,
+        "autoloader-suffix": "Files"
+    },
+    /** lfaleekage */
+    "autoload" : {
+        "psr-4": {
+            "LFA\OCA\\Files\\": "../lib/"
+        }
+	/** LFAsecretcode */
+    }
+}
